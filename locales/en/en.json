@@ -1,0 +1,19 @@
+{
+    "name": "Carmen Fernandez",
+    "about-me": "About Me",
+    "about-me-text":"While working as an English instructor nationwide, I have been intensively self-studying JavaScript, React, and Node.js for over six months. I currently publish several personal projects on GitHub, including a music search app using the Spotify API and a cafe recommendation site built with React, with backend services powered by Node.js and Express.\nI’ve developed not only coding skills but also a strong focus on user-centered design and UI/UX. Combining this with the adaptability and communication skills gained from working directly with people, I strive to be a reliable, proactive team member as an engineer.\nI’m seeking an environment where I can further enhance my on-the-job skills through OJT and code reviews while delivering real value in practical projects.",
+    "portfolio": "Portfolio",
+    "project-1": "Inspiration",
+    "project-1-description": "This web application is designed around a simple and intuitive ToDo list feature, allowing users to efficiently manage their daily tasks by adding, completing, and deleting items. Additionally, it includes a weather widget displaying the current location’s weather and an inspirational quotes widget that fetches data from an external API. The background images dynamically change via API calls, creating an engaging visual experience. By combining core frontend technologies, this project aims to balance both usability and aesthetic design.",
+    "project-2": "Jammming",
+    "project-2-description": "This React-based music search app lets users search for songs and create custom playlists. Users can save their playlists directly to their own Spotify accounts using the Spotify API.\nBy integrating with Spotify, I gained hands-on experience with external APIs, learned how to manage state effectively, and handled form inputs—all essential React fundamentals applied in a real-world context.",
+    "project-3": "Cafe Favorites",
+    "project-3-description": "This React app is a simple café management tool featuring a card-based UI where users can add or remove their favorite cafés from a list. Clicking a card immediately updates the state, showcasing effective use of React’s state management and component design fundamentals. The app is thoughtfully styled to ensure an intuitive and seamless user experience.",
+    "portfolio-view": "View Project Here",
+    "resume": "View Resume",
+    "contact-title":"Send me a message",
+    "name-entry": "Name",
+    "email-entry": "Email",
+    "message-entry": "Your message here",
+    "send": "Send"
+}
