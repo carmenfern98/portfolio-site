@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'http://localhost:5173');
+  res.header('Access-Control-Allow-Origin', 'https://carmenportfolio.netlify.app');
   res.header('Access-Control-Allow-Methods', 'GET,POST,OPTIONS');
   res.header('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === 'OPTIONS') {
@@ -35,7 +35,8 @@ app.post('/api/contact', async(req,res)=>{
         });
 
         await transporter.sendMail({
-            from: email,
+            from: gmail,
+            replyTo: email,
             to: 'carmenmfernandez98@gmail.com',
             subject: `New contact form submission from ${name}`,
             text: message
