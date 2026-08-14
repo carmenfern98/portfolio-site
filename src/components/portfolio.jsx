@@ -53,9 +53,23 @@ export const Portfolio = () =>{
             <PortfolioContainer>
                 <PortfolioText>
                 {renderParagraphs(t('project-1-description'))}
-                 <a href= 'https://inspirationcarmen.netlify.app/'  target='_blank' rel='noopener noreferrer'> {t('portfolio-view')}</a>
                 </PortfolioText>
-                <StyledPortfolioPic src={Inspiration}/>
+            </PortfolioContainer>
+            </div>
+            <div>
+            <h3>{t('project-4')}</h3>
+            <PortfolioContainer>
+                <PortfolioText>
+                {renderParagraphs(t('project-4-description'))}
+                </PortfolioText>
+            </PortfolioContainer>
+            </div>
+            <div>
+            <h3>{t('project-5')}</h3>
+            <PortfolioContainer>
+                <PortfolioText>
+                {renderParagraphs(t('project-5-description'))}
+                </PortfolioText>
             </PortfolioContainer>
             </div>
             <div>
